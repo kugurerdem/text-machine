@@ -135,14 +135,16 @@ function Ball(){
 	this.color = "rgb("+Math.round((Math.random()*255))+","+Math.round((Math.random()*255))+","+Math.round((Math.random()*255))+")";
 
 	this.update = function(){
-		this.x += this.vx;
-		this.y += this.vy;
+		if(!isStooped){
+			this.x += this.vx;
+			this.y += this.vy;
 
-		if(this.x - this.size < 0 || this.x + this.size > W){
-			this.vx = -this.vx;
-		} 
-		if(this.y - this.size < 0 || this.y + this.size > H){
-			this.vy = -this.vy;
+			if(this.x - this.size < 0 || this.x + this.size > W){
+				this.vx = -this.vx;
+			} 
+			if(this.y - this.size < 0 || this.y + this.size > H){
+				this.vy = -this.vy;
+			}
 		}
 	}
 
