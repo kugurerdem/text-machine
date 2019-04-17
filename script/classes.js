@@ -135,7 +135,7 @@ function Ball(){
 	this.color = "rgb("+Math.round((Math.random()*255))+","+Math.round((Math.random()*255))+","+Math.round((Math.random()*255))+")";
 
 	this.update = function(){
-		if(!isStooped){
+		if(!isStopped){
 			this.x += this.vx;
 			this.y += this.vy;
 
