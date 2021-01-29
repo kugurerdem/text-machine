@@ -1,8 +1,8 @@
-Click [here](https://kugurerdem.github.io/text-machine/) to see the program
+Click <a href="https://kugurerdem.github.io/text-machine/" target="_blank"> here </a> to see the program
 
 # What is this?
 
-This was a "fun" project I have made in 2016, the program is basically a machine that can apply several commands that are given to it. Typing "help" the commands that are possible are randomly shown in the right above corner.
+This was a "fun" project I have made in 2016, the program is basically a machine that can apply several commands that are given to it. Typing "help" the commands that are possible are randomly shown in the right above corner. 
 
 # List of commands
 
